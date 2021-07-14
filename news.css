@@ -1,0 +1,65 @@
+﻿*{
+    margin=0;
+    padding:0;
+    text-decoration:none;
+}
+body
+{
+    background-color: #222;
+}
+h1 {
+    width:50vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:2px 2px 5px red;
+    text-align:center;
+    position:relative;
+    left:30%;
+    color:rgb(246 223 94 / 0.75);
+    background-color:red;
+}
+h1:hover{
+    background-color:rgb(255 216 0 / 0.71);
+    color:#000000;
+}
+.navbar{
+    background-color:red;
+   // display:inline;
+    width:100%;
+    height:100px;
+}
+.navbar a{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    //overflow:auto;
+    white-space:nowrap;
+    padding:50px;
+    position:relative;
+    top:20px;
+}
+.navbar a:hover{
+    color:blue;
+}
+.headline {
+    width: 100%;
+    height: 50vh;
+    background-image: url("https://www.w3schools.com/images/picture.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+    .headline a {
+        color: white;
+        position: relative;
+        top: 30vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.news{
+    overflow:auto;
+}
+.news img{
+    width:50px;
+    height:40px;
+}
+    .news a {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
